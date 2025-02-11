@@ -1,0 +1,25 @@
+How to install tailwind:-
+create-folders
+-------------------------
+write(npm init -y)In Terminal
+---------------------------
+Write(npm install -D tailwindcss)In Terminal
+---------------------------
+write(npx tailwindcss init)In Terminal
+---------------------------
+add(  content: ["./public/**/*.{html,js}"],) to the tailwind.config
+--------------------------
+create style.css and add
+(
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+)
+to it
+---------------------------------
+write(npx tailwindcss -i ./style.css -o ./public/styles/tailwind.css --watch)in terminal to download the file of style and i add the name of css file(styles.css)then i write where i want to save the flie(public/styles)
+
+======================================================================================================================
+
+Names : (Ibrahim Mohammed Yaseen)
+        (Amjad)
